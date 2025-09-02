@@ -34,3 +34,5 @@ A project that analyzes a YouTube channel, performs comment sentiment analysis (
 ---
 
 ## 📸 Screenshots  
+
+Use screenshot to upload the comments and see the classification of them.
