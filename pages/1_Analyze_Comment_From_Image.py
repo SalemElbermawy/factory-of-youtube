@@ -6,8 +6,7 @@ import pandas as pd
 import streamlit as st
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
-reader = easyocr.Reader(['en'], model_storage_directory='/tmp/easyocr')
-
+reader = easyocr.Reader(['en'])
 
 st.title("Extract Text from Images 📷 ")
 image_ocr = st.file_uploader("Upload Image 📥📁:", type=["png", "jpg", "jpeg"])
